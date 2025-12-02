@@ -4,16 +4,29 @@
     box-sizing: border-box;
 }
 
+html {
+  box-sizing: inherit;;
+}
+
 html,
 body {
     height: 100%;
     min-height: 100%;
+    min-width: 1100px;
+    margin: 0;
+    padding: 0;
+
 }
 
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'montserratregular';
+    font-family: "montserratregular", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+
 }
 
 main {
@@ -21,6 +34,7 @@ main {
 }
 
 .container {
+    position: relative;
     max-width: 1110px;
     margin: 0 auto;
     padding-left: 15px;
@@ -148,4 +162,25 @@ main {
     gap: 30px;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+
+.card {
+    position: relative;
+}
+
+.card .bi-bookmarks-fill {
+    fill: rgb(182, 164, 142);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+header {
+    min-height: 800px;
+    background-color: #F9F6F1;
+}
+
+.header-menu {
+    min-height: 90px;
 }
