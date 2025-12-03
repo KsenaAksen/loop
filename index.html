@@ -4,61 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The loop</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <title>THE LOOP</title>
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <section class="section header-menu">
+        <section class="section__header-menu">
             <div class="section__wrapper container">
-             <div class="menu">
-                <ul class="mainmenu__list">
-                    <li class="mainmenu__item"><a class="menu__link" href="#">Для мужчин</a></li>
-                    <li class="mainmenu__item"><a class="menu__link" href="#">Для женщин</a></li>
-                    <li class="mainmenu__item"><a class="menu__link" href="#">Для детей</a></li>
-                </ul>
-             </div>
-             <div class="logo"></div>
-             <div class="menu"></div>
-             <div class="basket"></div>
+                <div class="menu">
+                    <ul class="mainmenu__list">
+                        <li class="mainmenu__item"><a class="menu__link" href="#">Для мужчин ▾</a></li>
+                        <li class="mainmenu__item"><a class="menu__link" href="#">Для женщин ▾</a></li>
+                        <li class="mainmenu__item"><a class="menu__link" href="#">Для детей ▾</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <a class="header__logo">
+                    
+                 </div>
+                <div class="menu">
+                    <ul class="mainmenu__list">
+                        <li class="mainmenu__item"><a class="menu__link" href="#">Оплата</a></li>
+                        <li class="mainmenu__item"><a class="menu__link" href="#">Доставка</a></li>
+                    </ul>
+                </div>
+                <div class="basket">
+                    <ul class="basket__list">
+                        <li class="basket__item">
+                            <a class="basket__link" href="#">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22.2936 11.4909L16.2385 2.40837C15.9632 2.13314 15.5505 1.85791 15.1376 1.85791C14.7248 1.85791 14.3119 1.99552 14.0367 2.40837L7.98165 11.4909H1.37615C0.550459 11.4909 0 12.0414 0 12.8671C0 13.0047 0 13.1423 0 13.2799L3.44037 26.0781C3.7156 27.179 4.81651 28.1423 6.05505 28.1423H23.945C25.1835 28.1423 26.2844 27.3166 26.5596 26.0781L30 13.2799C30 13.1423 30 13.0047 30 12.8671C30 12.0414 29.4495 11.4909 28.6239 11.4909H22.2936ZM11.0092 11.4909L15.1376 5.43589L19.2661 11.4909H11.0092ZM15.1376 22.5001C13.6239 22.5001 12.3853 21.2616 12.3853 19.7478C12.3853 18.2341 13.6239 16.9955 15.1376 16.9955C16.6514 16.9955 17.8899 18.2341 17.8899 19.7478C17.8899 21.2616 16.6514 22.5001 15.1376 22.5001Z"
+                                        fill="#212121" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="basket__item">
+                            <a class="basket__link" href="#">
+                                <svg width="46" height="17" viewBox="0 0 46 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M-3.71547e-07 8.5L12.75 1.13878L12.75 15.8612L-3.71547e-07 8.5Z"
+                                        fill="#D7B399" />
+                                    <path d="M12.75 1H45.75V16H12.75V1Z" fill="#D7B399" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section class="section banner">
             <div class="container">
-                2
+                <div class="slider__item">
+                </div>
             </div>
         </section>
     </header>
     <main>
         <section class="section delivery">
             <div class="container">
-                <h2 class="delivery__title">БЕСПЛАТНАЯ ДОСТАВКА <span>ОТ 3000₽</span></h2>
+                <h2 class="delivery__tittle">БЕСПЛАТНАЯ ДОСТАВКА <span>ОТ 3000₽</span></h2>
                 <p class="delivery__text">Сделайте заказ и получите подарок!</p>
             </div>
         </section>
         <section class="section man-woman">
             <div class="container">
                 <div class="man">
-                    <h2 class="man-woman__title">Мужская <span>коллекция</span></h2>
-                    <p>Обувь, полуверы, костюмы</p>
-                    <a class="man-woman__link" href="#">
-                        <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <h2 class="man-woman__tittle">Мужская<span>коллекция</span></h2>
+                    <p>Обувь, пуловеры, постюмы</p>
+                    <a class="man-woman__link" href="#"><svg width="21" height="8" viewBox="0 0 21 8" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path
-                                d="M20.3536 4.03556C20.5488 3.8403 20.5488 3.52372 20.3536 3.32846L17.1716 0.146474C16.9763 -0.0487878 16.6597 -0.0487878 16.4645 0.146474C16.2692 0.341737 16.2692 0.658319 16.4645 0.853581L19.2929 3.68201L16.4645 6.51044C16.2692 6.7057 16.2692 7.02228 16.4645 7.21754C16.6597 7.4128 16.9763 7.4128 17.1716 7.21754L20.3536 4.03556ZM-4.37114e-08 4.18201L20 4.18201L20 3.18201L4.37114e-08 3.18201L-4.37114e-08 4.18201Z"
+                                d="M20.3536 4.03556C20.5488 3.8403 20.5488 3.52372 20.3536 3.32846L17.1716 0.146474C16.9763 -0.0487877 16.6597 -0.0487878 16.4645 0.146474C16.2692 0.341736 16.2692 0.658319 16.4645 0.853581L19.2929 3.68201L16.4645 6.51044C16.2692 6.7057 16.2692 7.02228 16.4645 7.21754C16.6597 7.4128 16.9763 7.4128 17.1716 7.21754L20.3536 4.03556ZM0 3.68201L-4.37114e-08 4.18201L20 4.18201L20 3.68201L20 3.18201L4.37114e-08 3.18201L0 3.68201Z"
                                 fill="white" />
                         </svg>
                     </a>
                 </div>
                 <div class="woman">
-                    <h2 class="man-woman__title">Женская <span>коллекция</span></h2>
-                    <p>Обувь, полуверы, костюмы</p>
-                    <a class="man-woman__link" href="#">
-                        <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <h2 class="man-woman__tittle">Женская<span>коллекция</span></h2>
+                    <p>Обувь, пуловеры, постюмы</p>
+                    <a class="man-woman__link" href="#"><svg width="21" height="8" viewBox="0 0 21 8" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path
-                                d="M20.3536 4.03556C20.5488 3.8403 20.5488 3.52372 20.3536 3.32846L17.1716 0.146474C16.9763 -0.0487878 16.6597 -0.0487878 16.4645 0.146474C16.2692 0.341737 16.2692 0.658319 16.4645 0.853581L19.2929 3.68201L16.4645 6.51044C16.2692 6.7057 16.2692 7.02228 16.4645 7.21754C16.6597 7.4128 16.9763 7.4128 17.1716 7.21754L20.3536 4.03556ZM-4.37114e-08 4.18201L20 4.18201L20 3.18201L4.37114e-08 3.18201L-4.37114e-08 4.18201Z"
+                                d="M20.3536 4.03556C20.5488 3.8403 20.5488 3.52372 20.3536 3.32846L17.1716 0.146474C16.9763 -0.0487877 16.6597 -0.0487878 16.4645 0.146474C16.2692 0.341736 16.2692 0.658319 16.4645 0.853581L19.2929 3.68201L16.4645 6.51044C16.2692 6.7057 16.2692 7.02228 16.4645 7.21754C16.6597 7.4128 16.9763 7.4128 17.1716 7.21754L20.3536 4.03556ZM0 3.68201L-4.37114e-08 4.18201L20 4.18201L20 3.68201L20 3.18201L4.37114e-08 3.18201L0 3.68201Z"
                                 fill="white" />
                         </svg>
                     </a>
@@ -76,46 +107,43 @@
                 <div class="catalog">
                     <div class="card">
                         <img class="card__img" src="img/dress.png" alt="Коктейльное платье">
-                        <h3 class="card__title">Коктейльное
-                            платье</h3>
-                        <p class="card__price">40 000₽</p>
+                        <h3 class="card__title">Коктейльное платье</h3>
+                        <p class="card__price">₽ 40 000</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
   <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5z"/>
   <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1z"/>
-</svg>
+                        </svg>
                     </div>
                     <div class="card">
                         <img class="card__img" src="img/dress.png" alt="Коктейльное платье">
-                        <h3 class="card__title">Коктейльное
-                            платье</h3>
-                        <p class="card__price">40 000₽</p>
+                        <h3 class="card__title">Коктейльное платье</h3>
+                        <p class="card__price">₽ 40 000</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
   <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5z"/>
   <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1z"/>
-</svg>
+                        </svg>
                     </div>
                     <div class="card">
                         <img class="card__img" src="img/dress.png" alt="Коктейльное платье">
-                        <h3 class="card__title">Коктейльное
-                            платье</h3>
-                        <p class="card__price">40 000₽</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                        <h3 class="card__title">Коктейльное платье</h3>
+                        <p class="card__price">₽ 40 000</p>
+                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
   <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5z"/>
   <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1z"/>
-</svg>
+                        </svg>
                     </div>
                     <div class="card">
                         <img class="card__img" src="img/dress.png" alt="Коктейльное платье">
-                        <h3 class="card__title">Коктейльное
-                            платье</h3>
-                        <p class="card__price">40 000₽</p>
+                        <h3 class="card__title">Коктейльное платье</h3>
+                        <p class="card__price">₽ 40 000</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
   <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5z"/>
   <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1z"/>
-</svg>
+                        </svg>
                     </div>
                 </div>
-                <button class="btn">Все модели
+                <button class="btn">
+                    Все модели
                     <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M20.3536 4.03553C20.5488 3.84027 20.5488 3.52369 20.3536 3.32842L17.1716 0.146442C16.9763 -0.0488198 16.6597 -0.0488198 16.4645 0.146442C16.2692 0.341705 16.2692 0.658287 16.4645 0.853549L19.2929 3.68198L16.4645 6.5104C16.2692 6.70567 16.2692 7.02225 16.4645 7.21751C16.6597 7.41277 16.9763 7.41277 17.1716 7.21751L20.3536 4.03553ZM0 4.18198L20 4.18198V3.18198L0 3.18198L0 4.18198Z"
