@@ -157,7 +157,16 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+     position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
 }
+
+.banner {
+    margin: 90px;
+}
+
 .section__wrapper{
     display: flex;
     flex-direction: row;
@@ -211,6 +220,95 @@ ul{
 }
 
 .slider__item{
+    display: flex;
+    padding-top: 166px;
+    justify-content: space-between;
     min-height: 564px;
-    background: url(../img/first-screen__image.png) no-repeat right center;
+    background: url(../img/running_shoes_PNG5823.png) no-repeat right center;
+}
+
+.slider__text {
+    font-size: 30px;
+}
+.slider__big-text {
+    font-family: "montserratbold", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-top: 36px;
+}
+
+.button {
+    display: block;
+    width: 240px;
+    padding: 22px 0;
+    text-align: center;
+    background-color: #D7B399;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 54px;
+}
+
+.slider__item-price {
+    font-family: "montserratbold", "Arial", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.slider__price--old {
+    font-size: 24px;
+    text-decoration-line: line-through;
+}
+
+.slider__price--new {
+    font-size: 42px;
+    color: #d84033;
+}
+
+.slider__wrapper {
+    position: relative;
+}
+
+.slider__button {
+    position: absolute;
+    top: 50%;
+}
+
+.slider__button--prev {
+    left: -100px;
+    margin-right: 72px;
+    margin-top: 70px;
+}
+
+.slider__button--next {
+    right: -100px;
+    margin-right: 72px;
+    margin-top: 70px;
+}
+
+.dress__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dress__item{
+    width: 25%;
+    height: 236px;
+    text-align: right;
+    position:relative;
+}
+
+.dress__item--cream {
+    background-color: #f9f6f1;
+}
+
+.dress__item--grey {
+    background-color: #f4f4f4;
+}
+
+.dress__item-text {
+    position: absolute;
+    bottom: 24px;
+    left: 30px;
 }
