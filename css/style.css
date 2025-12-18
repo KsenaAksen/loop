@@ -344,6 +344,20 @@ ul{
 
 /*-------медиа-запросы------------*/
 
+
+.navbar-toggler{
+    display: none;
+}
+
+@media(max-width:1326px){
+    .slider__button--prev {
+    left: 0;
+    }
+    .slider__button--next {
+        right: 0;
+    }
+}
+
 @media(max-width:1200px){
     .catalog {
         flex-wrap: wrap;
@@ -359,28 +373,9 @@ ul{
     }
 }
 
-
-@media(max-width:768px){
-    .man-woman .container {
-        flex-direction: column;
-    }
-    .man,
-    .woman{
-        width: 100%;
-    }
-    .man-woman {
-        background: linear-gradient(180deg, #F9F6F1 0%, #F9F6F1 50%, #F9E0E0 50%, #F9E0E0 100%);
-    }
-}
-
-
-@media(max-width:576px){
-    .card {
-        width: 90%;
-    }
-    .new .container {
-        padding-top: 50px;
-        padding-bottom: 50px;
+@media(max-width:1130px){
+    .dress__item {
+    width: 33.33%;
     }
 }
 
@@ -392,12 +387,20 @@ ul{
     }
 }
 
-@media(max-width:1326px){
-    .slider__button--prev {
-    left: 0;
+@media(max-width:992px){
+    .menu__wrapper {
+    flex-wrap: wrap;
     }
-    .slider__button--next {
-        right: 0;
+    .logo {
+        order: -1;
+        width: 100%;
+    }
+   
+}
+
+@media(max-width:800px){
+    .dress__item {
+    width: 50%;
     }
 }
 
@@ -423,25 +426,16 @@ ul{
         text-align: right;
     }
 }
-
-@media(max-width:992px){
-    .menu__wrapper {
-    flex-wrap: wrap;
+@media(max-width:768px){
+    .man-woman .container {
+        flex-direction: column;
     }
-    .logo {
-        order: -1;
+    .man,
+    .woman{
         width: 100%;
     }
-}
-
-@media(max-width:992px){
-    .logo {
-    order: -1;
-    width: 70%;
-    }
-    .basket {
-        order: -1;
-        text-align: right;
+    .man-woman {
+        background: linear-gradient(180deg, #F9F6F1 0%, #F9F6F1 50%, #F9E0E0 50%, #F9E0E0 100%);
     }
 }
 
@@ -459,15 +453,13 @@ ul{
     }
 }
 
-@media(max-width:1130px){
-    .dress__item {
-    width: 33.33%;
+@media(max-width:576px){
+    .card {
+        width: 90%;
     }
-}
-
-@media(max-width:800px){
-    .dress__item {
-    width: 50%;
+    .new .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
 
